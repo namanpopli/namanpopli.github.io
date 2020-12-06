@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/2cfa3e0e59.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Home | Naman</title>
+</head>
+<body>
+    <nav id="navbar">
+        <div class="logo">
+            <a href="#home"><i class="fa fa-user"></i> <span>Portfolio</span></a>
+        </div>
+        <div class="main-list">
+            <ul class="main-ul">
+                <a href="#home"><li>About</li></a>
+                <a href="#projects"><li>Projects</li></a>
+                <li>Resume</li>
+                <a href="#contact"><li>Contact</li></a>
+            </ul>
+        </div>
+    </nav>
+    <header id="home">
+        <div class="home-info">
+            <p class="home-base">
+                Welcome to my portfolio website!
+            </p>
+            <h1 class="home-heading">Hey folks, I'm <span>Naman Popli</span></h1>
+            <p class="home-line">
+                I'm pursuing my B.E from Chitkara University in Computer Science. I am a Front-end Web Developer and hoping to become a full stack developer soon. I like coding as much as I like web development but I can say that I get intrigued from any technology that I start learning.
+            </p>
+            <div class="home-btn">
+                <button class="input-1">Download Resume</button>
+                <a href="#contact"><button class="input-2">Contact Me</button></a>
+            </div>
+        </div>
+        <div class="home-photo">
+            <img src="./img/1.svg" alt="home">
+        </div>
+    </header>
+    <section id="projects">
+        <div class="project-info">
+            <h2>Things I have designed or developed during my Graduation</h2>
+        </div>
+        <div class="project-display">
+            <div class="project-display-1">
+                <img src="./img/portfolio.svg" alt="portfolio">
+                <h3>Portfolio</h3>
+                <p>A simple Portfolio Website to show my work made in HTML CSS bootstrap</p>
+                <div>
+                    <a href="https://namanpopli.github.io" target="_blank"><button class="input-1">View Live</button></a>
+                    <a href="https://github.com/namanpopli/namanpopli.github.io" target="_blank"><button class="input-2">Get Code</button></a>
+                </div>
+            </div>
+            <div class="project-display-2">
+                <img src="./img/calculator.svg" alt="Calculator">
+                <h3>Calculator</h3>
+                <p>A simple Calculator using pure Javascript, HTML and CSS.</p>
+                <div>
+                    <a href="https://namanpopli.github.io/javascript-calculator" target="_blank"><button class="input-1">View Live</button></a>
+                    <a href="https://github.com/namanpopli/javascript-calculator" target="_blank"><button class="input-2">Get Code</button></a>
+                </div>
+            </div>
+            <div class="project-display-3">
+                <img src="./img/finder.svg" alt="Github Finder">
+                <h3>Github Finder</h3>
+                <p>A project to find Github User Profile.</p>
+                <div>
+                    <a href="https://namanpopli.github.io/github-finder" target="_blank"><button class="input-1">View Live</button></a>
+                    <a href="https://github.com/namanpopli/github-finder" target="_blank"><button class="input-2">Get Code</button></a>
+                </div>
+            </div>
+        </div>
+        <div class="project-button">
+            <button>See All Projects</button>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="contact-heading">
+            <h2>Get in Touch</h2>
+        </div>
+        <div class="contact-content">
+            <div class="content-info">
+                <h3>Let's talk about everything!</h3>
+                <p>Don't like forms? Send me an <span><a href="mailto:namanpopli7@gmail.com">email</a></span>. 👋</p>
+            </div>
+            <div class="contact-form">
+                <form action="" method="post">
+                    <div class="form-group">
+                        <input type="text" name="text" id="name" placeholder="Your name" required>
+                        <input type="email" name="email" id="email" placeholder="Email address" required>
+                    </div>
+                    <input type="text" name="subject" id="subject" placeholder="Subject" required>
+                    <textarea name="message" id="message" rows="6" placeholder="Message" required></textarea>
+                    <button id="form-btn" class="input-1" type="submit">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer id="footer">
+        <p class="copyright-info">Copyright &copy; Naman Popli. All rights reserved</p>
+        <p class="credits">With <i class="fa fa-heart"></i> by <span><a href="https://github.com/namanpopli">Naman</a></span></p>
+    </footer>
+</body>
+</html>
