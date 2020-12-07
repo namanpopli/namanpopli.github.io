@@ -365,6 +365,10 @@ a {
     background: #e7172f;
 }
 
+#projects .project-button button:active {
+    outline: none;
+}
+
 #contact {
     display: flex;
     flex-direction: column;
